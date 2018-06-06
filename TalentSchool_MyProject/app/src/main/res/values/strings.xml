@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Talent Kids Pre-School</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Exit</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello!</string>
+
+    <string name="slide_1_desc">Welcome To Talent Kids Pre-School App!</string>
+
+    <string name="slide_3_title">See Our Activities</string>
+    <string name="slide_3_desc">Our School Activities Displayed And Updated Regularly</string>
+
+    <string name="slide_4_title">Slide Away To Visit</string>
+    <string name="slide_4_desc">Look Around In The App For More Events</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_admin_drawer">AdminActivityDrawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Custom Icons-->
+    <string name="icon_heart">&#xf004;</string>
+
+    <!--Custom About Us Page-->
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+
+
+    <!--CardView-->
+    <string name="action_add_favourite">Remove</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">Talent School Videos</string>
+    <string name="backdrop_subtitle">Upadated To Latest!</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

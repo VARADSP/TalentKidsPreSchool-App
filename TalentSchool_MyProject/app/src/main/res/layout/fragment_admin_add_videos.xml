@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="stateVisible|adjustPan"
+    android:isScrollContainer="false"
+
+    tools:context="com.example.varadsp.talentschool_myproject.AdminAddVideos">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/coachLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/download4"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload New Videos"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/editTextVideoDescription"
+            android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:maxLines="7"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:scrollbars="vertical"
+            android:hint="Enter Video Event Description"
+        />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextVideoDescription"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/select_video_for_session"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/upload_btn"
+                android:text="Select video" />
+
+            <Button
+                android:id="@+id/upload_imageButton"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/upload_btn"
+                android:text="Upload"
+                android:layout_gravity="end"
+                android:layout_marginLeft="50dp"
+                />
+
+        </LinearLayout>
+
+        <com.felipecsl.gifimageview.library.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="380dp"
+            android:layout_height="140dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:scaleType="fitCenter" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

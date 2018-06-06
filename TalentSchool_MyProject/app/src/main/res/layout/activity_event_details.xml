@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.varadsp.talentschool_myproject.EventDetails">
+
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:id="@+id/progressBar"
+         android:layout_marginTop="20dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/eventImage"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
+
+    <TextView
+        android:layout_marginTop="220dp"
+        android:id="@+id/eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventImage"
+        android:textSize="32sp"
+        android:fontFamily="@font/architects_daughter"/>
+
+
+
+
+    <TextView
+        android:id="@+id/eventDescr"
+        android:layout_below="@+id/eventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/aladin" />
+
+
+
+
+    <TextView
+        android:layout_marginTop="310dp"
+        android:id="@+id/eventDate"
+        android:layout_below="@+id/eventDescr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+</ScrollView>

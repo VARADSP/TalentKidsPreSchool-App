@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.varadsp.talentschool_myproject.AdminLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="35dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/add_event_bg"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="Username"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:background="@drawable/edittext_border"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="5dp"
+            android:background="@drawable/edittext_border"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:hint="Password"
+            android:inputType="textPassword"></EditText>
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borderbutton"
+            android:text="Sign In" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</FrameLayout>

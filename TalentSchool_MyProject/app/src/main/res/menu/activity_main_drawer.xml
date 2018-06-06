@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/my_events"
+            android:title="Events At School" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video Gallary" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/location_icon"
+            android:title="See On Map" />
+
+    </group>
+
+    <item android:title="Go To Admin Panel">
+        <menu>
+
+            <item
+                android:id="@+id/nav_admin"
+
+
+
+                android:icon="@drawable/admin_login_icon"
+                android:title="Admin Login" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="stateVisible|adjustPan"
+    android:isScrollContainer="false"
+    tools:context="com.example.varadsp.talentschool_myproject.AdminAddEvents">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/editTextEventName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Event Name"
+
+            android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextEventDescription"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:layout_marginTop="60dp"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:hint="Enter Event Description"
+        />
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEventDescription"
+        android:layout_gravity="center"
+
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/select_video_for_session"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/upload_btn"
+            android:text="Select Image For Event" />
+
+        <Button
+            android:id="@+id/upload_imageButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/upload_btn"
+            android:text="Upload"
+            android:layout_gravity="end"
+            android:layout_marginLeft="50dp"
+            />
+
+    </LinearLayout>
+
+
+    <com.felipecsl.gifimageview.library.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="320dp"
+        android:scaleType="fitCenter" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1096129954543",
+    "firebase_url": "https://talentschoolproject.firebaseio.com",
+    "project_id": "talentschoolproject",
+    "storage_bucket": "talentschoolproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096129954543:android:c452ca7026bcf9d2",
+        "android_client_info": {
+          "package_name": "com.example.varadsp.talentschool_myproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096129954543-acagct5mdl3nah9u6mf4d9t3hhoacsn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.varadsp.talentschool_myproject",
+            "certificate_hash": "ce76521e15fb1bf384bea08b0f43050f1e782b32"
+          }
+        },
+        {
+          "client_id": "1096129954543-emlb9ebgba0iqiiq67vpe4gm9b83l1gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwu81NlD3TXKVDdwr4MvHH_9es_ee5SJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096129954543-emlb9ebgba0iqiiq67vpe4gm9b83l1gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

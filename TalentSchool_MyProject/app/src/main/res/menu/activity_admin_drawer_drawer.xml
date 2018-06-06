@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_admin_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_admin_events"
+            android:icon="@drawable/my_events"
+            android:title="Events At School" />
+        <item
+            android:id="@+id/nav_admin_videos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video Gallary" />
+
+        <item
+            android:id="@+id/nav_addevemt"
+            android:icon="@drawable/add_new_event_icon"
+            android:title="Add New Events" />
+        <item
+            android:id="@+id/nav_addvideo"
+            android:icon="@drawable/add_new_video_icon"
+            android:title="Add New Videos" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/location_icon"
+            android:title="See On Map" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Notify All" />
+
+    </group>
+
+    <item android:title="Log Out Of Admin Access">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_img"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

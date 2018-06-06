@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.varadsp.talentschool_myproject.EventsFragment">
+
+
+    <ListView
+        android:id="@+id/listViewVideo"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="?android:attr/windowOverscan"
+
+        android:cacheColorHint="?android:attr/textColorLink"
+
+        android:dividerHeight="?attr/actionBarSize"
+        android:entries="@android:drawable/button_onoff_indicator_on"
+        android:scrollbars="vertical">
+
+
+    </ListView>
+
+
+
+
+</FrameLayout>
