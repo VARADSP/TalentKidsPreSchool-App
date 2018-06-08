@@ -16,11 +16,6 @@
 - For more on these wonderful ~~badgers~~ badges, refer to <a href="http://badges.github.io/badgerbadgerbadger/" target="_blank">`badgerbadgerbadger`</a>.
 
 
-[![INSERT YOUR GRAPHIC HERE](stack-lighting-identity.gif)]()
-
-
-![Recordit GIF](stackofprojects2.gif)
-
 
 ---
 
